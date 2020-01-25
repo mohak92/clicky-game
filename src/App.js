@@ -10,7 +10,7 @@ class App extends Component {
     currentScore: 0,
     topScore: 0,
     selectedImages: [],
-    gameMsg: "Click on a image to begin!"
+    gameMsg: "Click on an image to begin!"
   };
 
   render() {
