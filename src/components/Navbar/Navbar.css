@@ -1,0 +1,30 @@
+/* Navbar */
+.navbar {
+    background-color: #8d42f5;
+    min-height: 70px;
+    position: fixed;
+    width: 100%;
+    color: #F8F8FF;
+    font-size: 2rem;
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    z-index: 10;
+  }
+
+  a {
+    color: #F8F8FF;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+
+  a:hover {
+    color: #F8F8FF;
+    text-decoration: none;
+  }
+  
