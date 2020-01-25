@@ -1,0 +1,2 @@
+(this["webpackJsonpclicky-game"]=this["webpackJsonpclicky-game"]||[]).push([[0],{3:function(e,n,t){e.exports=t(8)},8:function(e,n,t){"use strict";t.r(n);var c=t(0),a=t.n(c),r=t(2);var i=function(){return a.a.createElement("div",{className:"App"},"Clicky Game")};t.n(r).a.render(a.a.createElement(i,null),document.getElementById("root"))}},[[3,1,2]]]);
+//# sourceMappingURL=main.795de831.chunk.js.map
