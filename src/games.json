@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Battlefield V",
+        "image": "./assets/images/battlefieldv.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Fortnite",
+        "image": "./assets/images/fortnite.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "GTA V",
+        "image": "./assets/images/gtav.jpg"
+    },
+    {
+        "id": 4,
+        "name": "PUBG",
+        "image": "./assets/images/pubg.jpeg"
+    },
+    {
+        "id": 5,
+        "name": "Tomb Raider",
+        "image": "./assets/images/TombRaider.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Red Dead Redemption 2",
+        "image": "./assets/images/rdr2.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Pacman",
+        "image": "./assets/images/pacman.png"
+    },
+    {
+        "id": 8,
+        "name": "Contra",
+        "image": "./assets/images/contra.jpg"
+    },
+    {
+        "id": 9,
+        "name": "NFS MW",
+        "image": "./assets/images/NFSMW.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Prince of Persia",
+        "image": "./assets/images/pop.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Mario",
+        "image": "./assets/images/mario.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Infamous Second Son",
+        "image": "./assets/images/InfamousSecondSon.jpg"
+    }
+]
