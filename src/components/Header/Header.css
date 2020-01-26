@@ -4,11 +4,14 @@
     margin-bottom: 0px;
     padding: 180px;
     text-align: center;
-    font-size: 3rem;
     color: #F8F8FF;
     background-image: url("./background.jpg");
     background-size: 300px 300px;
   }
   h1 {
-    font-size: 4rem;
+    font-size: 2vw;
+  }
+
+  h2 {
+    font-size: 1.3vw;
   }
