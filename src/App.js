@@ -17,7 +17,7 @@ class App extends Component {
     games
   };
 
-  imageClicked = (id) => {
+  handleClicked = (id) => {
 
   }
 
@@ -31,13 +31,13 @@ class App extends Component {
         />
         <Header />
         <Container>
-        {games.map(city => (
+        {games.map(game => (
             <Images
-              key={city.id}
-              id={city.id}
-              name={city.name}
-              image={city.image}
-              imageClicked={this.imageClicked}
+              key={game.id}
+              id={game.id}
+              name={game.name}
+              image={game.image}
+              handleClicked={this.handleClicked}
             />
           ))}
          </Container>
