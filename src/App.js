@@ -12,13 +12,46 @@ class App extends Component {
   state = {
     currentScore: 0,
     topScore: 0,
-    selectedImages: [],
-    gameMsg: "Click on an image to begin!",
+    clicked: [],
+    gameMsg: 'Click on an image to begin!',
     games
   };
 
   handleClicked = (id) => {
-
+    if (!this.state.clicked.includes(id)) {
+      this.setState({
+        clicked: this.state.clicked.concat(id)
+      });
+      const updatedScore = this.state.currentScore + 1
+      // increment score
+      this.setState({
+        currentScore: updatedScore,
+        gameMsg: 'You guessed correctly!'
+      })
+      // update topscore
+      if (updatedScore >= this.state.topScore) {
+        this.setState({ topScore: updatedScore })
+      }
+      if (updatedScore === 12) {
+        this.setState({ 
+        games,
+        gameMsg: 'You win!',
+        currentScore: 0,
+        clicked: [] })
+        }
+      this.setState({
+        games: this.state.games.sort(function (a, b) { return 0.5 - Math.random() })
+      });
+    } else {
+      // if id is found, reset game
+      this.setState({
+        games,
+        gameMsg: 'You guess incorrectly! Try Again',
+        currentScore: 0,
+        clicked: []
+      })
+      this.setState({ ganes: this.state.games.sort(function (a, b) { return 0.5 - Math.random() }) })
+    }
   }
 
   render() {
@@ -31,7 +64,7 @@ class App extends Component {
         />
         <Header />
         <Container>
-        {games.map(game => (
+          {games.map(game => (
             <Images
               key={game.id}
               id={game.id}
@@ -40,7 +73,7 @@ class App extends Component {
               handleClicked={this.handleClicked}
             />
           ))}
-         </Container>
+        </Container>
         <Footer />
       </div>
     );
